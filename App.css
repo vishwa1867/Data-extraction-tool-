@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+ 
+  background-size: cover;
+  color: #fff;
+}
+
+/* Optional: add semi-transparent container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  border-radius: 10px;
+}
+
+/* Welcome Header */
+.welcome {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Flowchart Section */
+.flowchart {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.flowchart img {
+  max-width: 80%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Panel for upload and GPT output */
+.panel {
+  margin-top: 1rem;
+}
+
+.beautify-btn {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.beautify-btn:hover {
+  background-color: #0196a2;
+}
+
+.json-box,
+.preview-box {
+  background-color: #ffffff20;
+  border: 1px solid #ffffff40;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  color: #f0f0f0;
+}
+/* Background video styling */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
